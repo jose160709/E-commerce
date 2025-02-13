@@ -93,6 +93,8 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/@nebular/theme/styles/globals.scss",
+             "node_modules/@nebular/theme/styles/themes/material-dark.scss",
               "src/styles.scss"
             ],
             "scripts": []

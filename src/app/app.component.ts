@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'pratica12';
+  menuItems = [
+    { title: 'Dashboard', icon: 'home-outline', link: '/dashboard' },
+    { title: 'Productos', icon: 'shopping-cart-outline', link: '/productos' },
+    { title: 'Pedidos', icon: 'archive-outline', link: '/pedidos' },
+    { title: 'Usuarios', icon: 'people-outline', link: '/usuarios' }
+  ];
 }
